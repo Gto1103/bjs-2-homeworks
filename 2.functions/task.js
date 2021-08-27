@@ -74,11 +74,7 @@ function worker2(arr) {
 		}
 	}
 
-	if (max > min) {
 		dif = max - min;
-	} else {
-		dif = min - max;
-	}
 
 	return dif;
 
